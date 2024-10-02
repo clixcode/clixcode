@@ -10,6 +10,4 @@
 clixcode/clixcode is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 You can click the Preview link to take a look at your changes.
 --->
-
-
-https://prod.liveshare.vsengsaas.visualstudio.com/join?C725CB7E3B67DFF9C135F54786A9C11932F5
+https://prod.liveshare.vsengsaas.visualstudio.com/join?E0CF304F2B01DB752863B67DD158BD749867
