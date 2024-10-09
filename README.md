@@ -1,13 +1,59 @@
-[[- 👋 Hi, I’m @clixcode
-- 👀 I’m interested in ...
-- 🌱 I’m currently learning ...
-- 💞️ I’m looking to collaborate on ...
-- 📫 How to reach me ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            display: flex;
+            justify-content: center;
+            font-size: large;
+        }
+        .num{
+            display: flex;
+            text-align: center;
+            margin-left: 15px;
+        }
+    </style>
+</head>
+<body>
+    <center>
+       <div class="num">
+        <div id="a">0</div>+
+        <div id="b">0</div> =
+        <div id="eq">0</div>
+    </div> 
 
-<!---
-clixcode/clixcode is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
-https://prod.liveshare.vsengsaas.visualstudio.com/join?9835E985D2B8C2E8416CBABDDF33A208E078
+        <button id="aB" onclick="aFunction()">A</button>
+        <button id="bB" onclick="bFunction()">B</button>
+        <button id="clear" onclick="clear()">clear</button>
+    </center>
+    <script>
+        var clear = document.getElementById("clear")
+        var a = document.getElementById("a");
+        var b = document.getElementById("b");
+        var eq = document.getElementById("eq")
+        var aValue = 0;
+        var bValue = 0;
+
+        function aFunction(){
+            aValue = Number(prompt("enter number", aValue))
+            a.innerHTML = aValue;
+            eq.innerHTML = aValue+bValue
+        }
+
+        function bFunction(){
+            bValue = Number(prompt("enter number B",bValue ))
+            b.innerHTML = bValue;
+            eq.innerHTML = bValue+aValue
+        }
+        function clear(){
+            aValue = 0;
+            bValue = 0;
+            a.innerHTML = "0";
+            b.innerHTML = "0";
+        }
+    </script>
+</body>
+</html>
