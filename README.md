@@ -1,1 +1,1 @@
-https://prod.liveshare.vsengsaas.visualstudio.com/join?4F5D8576CA342501D717149A337E4CF5E684
+https://chatgpt.com/share/6708e64e-cb80-8004-bf07-57307233c2cb
