@@ -1,0 +1,18 @@
+.lewo{
+    float: left;
+    margin-right:50px ;
+}
+
+.prawo{
+    float: left;
+}
+
+#pedal{
+    clear: both;
+    /* border: solid black 1px;
+    border-top: 20px; */
+}
+#output{
+    margin-left: 500px;
+    font-size: larger;
+}
